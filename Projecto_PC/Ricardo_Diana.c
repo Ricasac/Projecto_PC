@@ -3,7 +3,7 @@
 
 void menu_inicial()
 {
-    unsigned int option;
+    unsigned int option = 6; //inicialize "option" on a number outside of the options
     printf("**************************************************************************************************\n");
     printf("*******************************************Hangman Game*******************************************\n");
     printf("**************************************************************************************************\n");
@@ -17,9 +17,19 @@ void menu_inicial()
     printf("5 - Exit\n");
 
     printf("Please input the appropriate number to advance\n");
-    scanf("%u", &option);
+    while(option < 1 || option > 5)
+    {
+        fflush(stdin); //clears buffer. Makes sure that if you input something outside of a number, it does not cause havoc
+        scanf("%u", &option);
+        if(option < 1 || option > 5)
+        {
+            printf("Your input is invalid, please try again\n");
+        }
+    }
     printf("The number you selected is %u!\n", option);
 }
+
+
 
 int main() 
 {
