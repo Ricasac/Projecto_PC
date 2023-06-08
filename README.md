@@ -8,4 +8,5 @@ Update 28/05/2023
 Juntei todos os ficheiros txt num só e mudei a organização das funções. Estou a centrar tudo à volta do main como deveria ter sido desde o inicio.
 
 Update 08/06/2023
-O Jogo já está a funcionar, só resta pequenas optimizações no código tanto funcionais como estéticas para o trabalho final
+O Jogo já está a funcionar, só resta pequenas optimizações no código tanto funcionais como estéticas para o trabalho final.
+Também troquei o .txt que servia como banco de palavras por um header que a professora colocou no moodle.
