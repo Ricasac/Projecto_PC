@@ -1,0 +1,76 @@
+#ifndef WORDS_SAMPLE_H
+#define WORDS_SAMPLE_H
+
+const char simple_words[21][7] = {
+
+	"AFERIR",
+	"ADORNO",
+	"AMORIM",
+	"BEBIDA",
+	"BRANCO",
+	"CANECA",
+	"CASACO",
+	"CASUAL",
+	"COAGIR",
+	"DIFUSO",
+	"EFICAZ",
+	"ESPIAR",
+	"GOSTAR",
+	"INERTE",
+	"INVEJA",
+	"JANTAR",
+	"JULGAR",
+	"PERENE",
+	"REMOTO",
+	"TRIBAL"
+};
+
+const char medium_words[21][9] = {
+
+	"ANALOGIA",
+	"CAMARADA",
+	"CONCEITO",
+	"CONTENDA",
+	"DESLIZAR",
+	"DISTINTO",
+	"EXIGENTE",
+	"FANTASIA",
+	"FLAMINGO",
+	"LAMENTAR",
+	"LENHADOR",
+	"NAUFRAGO",
+	"NOVIDADE",
+	"PAPELADA",
+	"PREMISSA",
+	"PROCESSO",
+	"PRUDENTE",
+	"REPUDIAR",
+	"RESPALDO",
+	"RESPEITO"
+};
+
+const char hard_words[21][11] = {
+	
+	"ANALFABETO",
+	"ANESTESIAR",
+	"BENEFICIAR",
+	"COMPONENTE",
+	"COMPUTADOR",
+	"CONFISCADO",
+	"DEMONSTRAR",
+	"DESAGRADAR",
+	"DESEMPENHO",
+	"ESTUDANTIL",
+	"ETIMOLOGIA",
+	"FELICIDADE",
+	"INDICATIVO",
+	"JARDINEIRO",
+	"MERCADORIA",
+	"NAVEGANTES",
+	"ORTOGRAFIA",
+	"QUINZENAIS",
+	"SORRIDENTE",
+	"VENTILADOR"
+};
+
+#endif
