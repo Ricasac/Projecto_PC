@@ -6,3 +6,6 @@ Coloquei a secção 4,3 e 2 do menu inicial a correr sem erros. Dupliquei a quan
 
 Update 28/05/2023
 Juntei todos os ficheiros txt num só e mudei a organização das funções. Estou a centrar tudo à volta do main como deveria ter sido desde o inicio.
+
+Update 08/06/2023
+O Jogo já está a funcionar, só resta pequenas optimizações no código tanto funcionais como estéticas para o trabalho final
